@@ -1,0 +1,11 @@
+[Unit]
+Description=Start Mail container
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker start mail
+
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

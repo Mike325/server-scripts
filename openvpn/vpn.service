@@ -1,0 +1,12 @@
+[Unit]
+Description=Start OpenVPN container
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/bin/docker start openVPN 
+
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

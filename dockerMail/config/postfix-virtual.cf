@@ -1,0 +1,9 @@
+# Alias to existing account
+#
+# correo.ficticio@dominio.tdl correo.real@dominio.tdl
+# correo.ficticio2@dominio.tdl otro.correo.real@dominio.tdl
+
+
+# Forward to external email address
+# 
+# correo.real@dominio.tdl correo.externo@provedor.tdl (gmail, outlook, icloud, etc)
