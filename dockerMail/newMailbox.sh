@@ -14,10 +14,10 @@ function newMailbox()
     while [[ "$PASSWORD" != "$CHECK" ]]; do
         echo ""
         echo "------> Enter the password" 
-        read PASSWORD
+        read -s PASSWORD
 
         echo "------> Confirm your password" 
-        read CHECK 
+        read -s CHECK 
         if  [[ "$PASSWORD" != "$CHECK" ]]; then
             echo ""
             echo "------> Please enter the same password on each phase" 

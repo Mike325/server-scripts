@@ -5,7 +5,6 @@ services:
         image: tvial/docker-mailserver:latest
         #hostname: host ( HOST.dominio.tld )
         hostname: mail
-        #domain name: dominio.tld  
         domainname: example.com 
         container_name: mail
         ports:
