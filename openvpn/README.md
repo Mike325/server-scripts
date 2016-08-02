@@ -19,5 +19,5 @@ sudo ./init.sh
 ./client.sh
 ```
 
-- *The **init.sh** must be run with sudo command or as root because it adds a systemd entry to start the vpn container on boot.*
-- *The **client.sh** can be run as normal user, this script will generate the cliente.ovpn file that must be imported on each client app.*
+- The **init.sh** must be run with sudo command or as root because it adds a systemd entry to start the vpn container on boot.
+- The **client.sh** can be run as normal user, this script will generate the cliente.ovpn file that must be imported on each client app.
