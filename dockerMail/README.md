@@ -14,7 +14,7 @@ cd server-scripts/dockerMail
 sudo chmod +x init.sh newMailbox.sh
 
 ```
-The **init.sh** must be run with sudo command or as root because it adds a systemd entry to start the mail container on the machine boot.
+The **init.sh** must be run with sudo command or as root because it adds a systemd entry to start the mail container on boot.
 The **newMailbox.sh** can be run as normal user, but it most be run under the volume dir that contains the data and configurations of the mail server, usually this directory is the one where you first run the *init.sh* script.
 
 ## Start the server
