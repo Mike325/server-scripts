@@ -27,6 +27,7 @@ while [[ "$PASSWORD" != "$CHECK" ]]; do
 done
 
 mkdir -p config
+mkdir -p maildata 
 
 docker pull tvial/docker-mailserver:latest
 docker run --rm \
