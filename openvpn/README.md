@@ -9,7 +9,6 @@ After you have cloned this repo, you must chenge the user permition to run the s
 ```
 cd server-scripts/openvpn
 sudo chmod +x init.sh client.sh
-
 ```
 
 Then you just need yo run the **init.sh** script to start the container and the **client.sh** to create new certificates.
